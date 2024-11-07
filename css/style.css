@@ -1,0 +1,61 @@
+* {
+        font-family: 'BedsteadRegular';
+            font-weight: bolder;
+            font-style: normal;
+
+}
+
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color:ghostwhite ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.calculator {
+    background-color: dodgerblue;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.calculator form input{
+    border: 5px;
+    outline: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 36px;
+    margin: 10px;
+}
+
+form .display{
+    display: flex;
+    margin: 10px 0;
+    font-size: 50px;
+
+
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 60px;
+    padding: 0px 10px
+
+}
+
+form input.equal{
+   width: 190px;
+
+}
+
+form input.operator {
+    color:rgb(8, 108, 141)
+}
